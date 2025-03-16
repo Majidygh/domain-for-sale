@@ -3,21 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>دامنه برای فروش</title>
+    <title>🔹 این دامنه برای فروش است!</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f8f8f8; }
-        .container { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); display: inline-block; }
-        h1 { color: #333; }
-        p { color: #666; }
-        .contact { margin-top: 20px; font-size: 18px; font-weight: bold; color: #007bff; }
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            background: linear-gradient(135deg, #ff7eb3, #ff758c);
+            color: white;
+            text-align: center;
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            max-width: 400px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .contact {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background: white;
+            color: #ff758c;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn:hover {
+            background: #ff4f79;
+            color: white;
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>این دامنه برای فروش است!</h1>
+        <h1>🔹 این دامنه برای فروش است!</h1>
         <p>اگر مایل به خرید این دامنه هستید، لطفاً با ما تماس بگیرید.</p>
-        <p class="contact">📞 Telegram: @Domainland</p>
-        <p class="contact">✉️ Email: Domainland@gmail.com.com</p>
+        <p class="contact">📞 Telegram: DomainSara </p>
+        <p class="contact">✉️ Email: Domain@gmail.com</p>
+        <a href="mailto:example@email.com" class="btn">💌 ارسال ایمیل</a>
     </div>
 </body>
 </html>
